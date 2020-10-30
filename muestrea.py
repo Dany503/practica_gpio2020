@@ -21,9 +21,9 @@ def muestrea_pin (periodo):
     while(1):
         time.sleep(periodo)
         if (GPIO.input(11)) == 0:
-            print "Entrada a 0"
+            print("Entrada a 0")
         else:
-            print "Entrada a 1"
+            print("Entrada a 1")
 
 muestrea_pin(1)
             
